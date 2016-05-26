@@ -17,18 +17,18 @@ public interface RubikCube {
 	//public void chooseCube(int i);
 	 
 	/**
-	  * Permet de choisir le mouvement Ã  appliquer
+	  * Permet de choisir le mouvement à appliquer
 	  * @param c
 	  */
 	public void chooseMovement(char c);
 	
 	/**
-	 * Effectue une rotation Ã  gauche
+	 * Effectue une rotation a gauche
 	 */
 	public void rotateLeft();
 	
 	/**
-	 * Effectue une rotation Ã  droite
+	 * Effectue une rotation à droite
 	 */
 	public void rotateRight();
 	
@@ -48,7 +48,7 @@ public interface RubikCube {
 	public void rotateFrontRight();
 	
 	/**
-	 * Fait tourner la face arriÃ¨re sur la droite
+	 * Fait tourner la face arrière sur la droite
 	 */
 	public void rotateRearRight();
 	/**

@@ -3,14 +3,14 @@ package Model;
 public interface Face {
 
 	/**
-	 * DÃ©finit la face
+	 * Définit la face
 	 * @param nbFace
 	 */
 	public void setFace(int nbFace);
 	
 	
 	/**
-	 * Retourne true si la face n'est composÃ© que d'une couleur
+	 * Retourne true si la face n'est composé que d'une couleur
 	 * @return
 	 */
 	public void isComplete();

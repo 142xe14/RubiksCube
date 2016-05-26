@@ -11,8 +11,8 @@ public interface Cube {
 	public java.awt.Color getColor();
 	
 	/**
-	 * DÃ©finit la couleur du cube
-	 * @param color2
+	 * Définit la couleur du cube
+	 * @param color
 	 */
 	public void setColor(Color color2);
 }
